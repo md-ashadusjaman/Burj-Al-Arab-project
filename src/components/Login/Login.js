@@ -29,8 +29,8 @@ const Login = () => {
           });
     }
     return (
-        <div>
-            <h1>This is Login</h1>
+        <div style={{textAlign: 'center'}}>
+            <h1>Sign In With Google</h1>
             <button onClick={handleGoogleSignIn}>Google Sign in</button>
         </div>
     );
